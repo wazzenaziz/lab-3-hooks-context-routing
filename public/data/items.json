@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Onboard New Customer",
+    "summary": "Prepare project kickoff notes and assign owners.",
+    "body": "Collect requirements, schedule kickoff call, and prepare starter assets for the customer success team.",
+    "status": "In Progress",
+    "priority": "High",
+    "userId": 1,
+    "createdAt": "2026-04-01"
+  },
+  {
+    "id": 2,
+    "title": "Audit Analytics Tags",
+    "summary": "Verify tracking coverage on marketing pages.",
+    "body": "Check UTM mappings, event naming consistency, and dashboard attribution accuracy.",
+    "status": "Open",
+    "priority": "Medium",
+    "userId": 2,
+    "createdAt": "2026-04-02"
+  },
+  {
+    "id": 3,
+    "title": "Release v3.2",
+    "summary": "Coordinate production release with QA sign-off.",
+    "body": "Confirm regression tests pass, monitor logs post-deploy, and publish release notes.",
+    "status": "Completed",
+    "priority": "High",
+    "userId": 1,
+    "createdAt": "2026-04-03"
+  },
+  {
+    "id": 4,
+    "title": "Design Dashboard Widgets",
+    "summary": "Create component specs for KPI cards.",
+    "body": "Define card states, responsive behavior, and color tokens for default and alert states.",
+    "status": "In Progress",
+    "priority": "Medium",
+    "userId": 3,
+    "createdAt": "2026-04-04"
+  },
+  {
+    "id": 5,
+    "title": "Fix Login Redirect Bug",
+    "summary": "Users are redirected to home instead of dashboard.",
+    "body": "Inspect route guard state handling and preserve the original destination path in location state.",
+    "status": "Open",
+    "priority": "High",
+    "userId": 2,
+    "createdAt": "2026-04-05"
+  },
+  {
+    "id": 6,
+    "title": "Refactor useFetch Hook",
+    "summary": "Unify API loading and error handling logic.",
+    "body": "Move repeated fetch patterns to a reusable hook and update all consumers to use it.",
+    "status": "Completed",
+    "priority": "Medium",
+    "userId": 1,
+    "createdAt": "2026-04-06"
+  },
+  {
+    "id": 7,
+    "title": "Prepare Sprint Demo",
+    "summary": "Collect screenshots and metrics for presentation.",
+    "body": "Build a short storyline: problem, implementation highlights, and measurable impact.",
+    "status": "In Progress",
+    "priority": "Low",
+    "userId": 3,
+    "createdAt": "2026-04-07"
+  },
+  {
+    "id": 8,
+    "title": "Add 404 Page",
+    "summary": "Handle unknown paths with a fallback route.",
+    "body": "Implement wildcard router path and include a clear CTA back to the home page.",
+    "status": "Completed",
+    "priority": "Low",
+    "userId": 2,
+    "createdAt": "2026-04-08"
+  },
+  {
+    "id": 9,
+    "title": "Improve Mobile Navigation",
+    "summary": "Enhance usability on smaller screens.",
+    "body": "Adjust nav spacing, enable wrapping, and test tap target sizes across breakpoints.",
+    "status": "Open",
+    "priority": "Medium",
+    "userId": 1,
+    "createdAt": "2026-04-09"
+  },
+  {
+    "id": 10,
+    "title": "Write Reflection Answers",
+    "summary": "Document lessons learned for hooks and context.",
+    "body": "Answer all reflection questions clearly and include examples from the implemented app.",
+    "status": "Open",
+    "priority": "Low",
+    "userId": 3,
+    "createdAt": "2026-04-10"
+  },
+  {
+    "id": 11,
+    "title": "Persist Theme Setting",
+    "summary": "Keep selected theme after refresh.",
+    "body": "Store theme mode in localStorage and initialize context state from saved value.",
+    "status": "Completed",
+    "priority": "Medium",
+    "userId": 2,
+    "createdAt": "2026-04-11"
+  },
+  {
+    "id": 12,
+    "title": "Test Protected Routes",
+    "summary": "Verify unauthorized users are redirected.",
+    "body": "Ensure /dashboard and /dashboard/items/:id both redirect to /login when logged out.",
+    "status": "In Progress",
+    "priority": "High",
+    "userId": 1,
+    "createdAt": "2026-04-12"
+  }
+]
